@@ -1,0 +1,31 @@
+h1{
+  background-color:white;
+  color:cornflowerblue;
+  margin:20px;
+}
+
+h2{
+  color:white;
+  margin:20px;
+}
+
+body{
+  background-color:lightblue;
+}
+
+canvas{
+  width:200px;
+  height:200px;
+  border:1px solid white;
+  margin:20px;
+}
+
+p{
+  color:midnightblue;
+  margin:20px;
+}
+
+input{
+  font-size:10pt;
+  color:midnightblue;
+}

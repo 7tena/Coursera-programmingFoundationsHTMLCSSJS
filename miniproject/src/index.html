@@ -1,0 +1,21 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+
+<h1 id="h1">MINI PROJECT</h1>
+<div>
+  <canvas id="can1"></canvas>
+  <canvas id="can2"></canvas>
+<div>
+  <h2 class="h2">Choose Image File</h2>
+  <p class="p">
+    Image File: <input type="file" multiple="false" accept="image/*" id="img" onchange="loadFile()" >
+  </p>
+  </div>
+  <div>
+    <h2>Choose Image Filter</h2>
+    <p>
+      <input type="button" value="Grayscale" onclick="makegray()" >
+      <input type="button" value="Red Filter" onclick="makered()" >
+      <input type="button" value="Rainbow Filter" onclick="makerainbow()" >
+      <input type="button" value="Clear Canvases" onclick="clearCanvas()" >
+    
